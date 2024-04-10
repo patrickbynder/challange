@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    /* TODO: Define your grid colums and rows here */
+    min-height: 100vh;
+}
+
+header {
+    /* TODO:  Add your grid and flex properties here */
+    /* Sidebar width is 320px */
+    align-items: center;
+    background-color: #031026;
+    color: #fff;
+    padding: 10px;
+    height: 150px;
+}
+
+/* TODO:  For the header part add divs with classes where necessary in the index.html */
+/* TODO:  Navigation items 1, 2 and 3 should be displayed on the left */
+/* TODO:  Navigation items 4 and 5 should be displayed on the right */
+
+.content {
+    /* TODO: display the card grid, with 4 cards on a row */
+    grid-gap: 20px;
+    padding: 20px;
+    height: 500px;
+}
+
+.card {
+    background-color: #126dfe;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sidebar {
+    background-color: #212c40;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer {
+    background-color: #0af;
+    padding: 10px;
+}
